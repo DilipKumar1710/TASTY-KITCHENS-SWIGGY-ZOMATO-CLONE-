@@ -131,7 +131,7 @@ const Header = props => {
                 </li>
                 <li key={navLinkItems[3].id} className="small-device-item">
                   <Link
-                    to="/cart"
+                    to="/profile"
                     className={
                       activeTabId === navLinkItems[3].path
                         ? `mobile-item active-link`
